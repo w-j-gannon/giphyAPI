@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
     <link rel="icon" href="assets/images/colorWheel.png">
     <title>GIPHY API</title>
 </head>
@@ -49,6 +50,9 @@
             </div>
         </div>
     </header>
+    <br>
+    <br>
+
     <!-- search bar plus buttons -->
     <div class="container">
         <div class="row align-items-center">
@@ -64,8 +68,13 @@
                                 <button class="btn btn-primary" type="button" id="button-addon2">Add</button>
                             </div>
                         </div>
-
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="btn-group" id="button-row">
+                            <a href="#" class="btn btn-success">Green</a>
+                            <a href="#" class="btn btn-success">Goop</a>
+                            <a href="#" class="btn btn-success">Garage</a>
+                            <a href="#" class="btn btn-success">Gollum</a>
+                            <a href="#" class="btn btn-success">Gump</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -73,9 +82,9 @@
     </div>
 
     <!-- gifs -->
-    <div class="card" style="width: 18rem;">
+    <div class="card" id="gif-card" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body" id="gif-holder">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
