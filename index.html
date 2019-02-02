@@ -50,13 +50,13 @@
             </div>
         </div>
     </header>
-    <br>
-    <br>
 
-    <!-- search bar plus buttons -->
-    <div class="container">
+    <!-- main body -->
+    <div class="container" id="search-container">
         <div class="row align-items-center">
             <div class="col-12">
+
+                <!-- search card -->
                 <div class="card">
                     <div class="card-header">
                         Great GIFS
@@ -71,7 +71,7 @@
                         <div class="btn-group" id="button-row">
                             <a data-source="Green" class="btn btn-success search-button">Green</a>
                             <a data-source="Gold" class="btn btn-success search-button">Gold</a>
-                            <a data-source="Garage" class="btn btn-success search-button">Garage</a>
+                            <a data-source="Goop" class="btn btn-success search-button">Goop</a>
                             <a data-source="Gollum" class="btn btn-success search-button">Gollum</a>
                             <a data-source="Gump" class="btn btn-success search-button">Gump</a>
                         </div>
@@ -79,16 +79,18 @@
                 </div>
             </div>
         </div>
-
+        
         <!-- gifs -->
         <div class="row">
             <div class="col-12">
-                <div class="card" id="gif-card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body" id="gif-holder">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card" id="gif-container">
+                    <div id="gif-card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body" id="gif-holder">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
             </div>
