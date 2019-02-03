@@ -3,4 +3,22 @@ body {
     background-image: opacity(0.5);
 }
 
+#gif-container, #search-container {
+    margin-top: 4%;
+}
 
+#gif-container {
+    padding: 8%;
+}
+
+.card-deck {
+    padding: 2%;
+}
+
+.search-button {
+    margin-top: 1%;
+}
+
+#each-gif {
+    margin-bottom: 4%;
+}
